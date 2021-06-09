@@ -1,0 +1,22 @@
+<!DOCTYPE>
+ <html>
+   <body>
+   <center>
+   <br>
+<br>
+   <br>
+   <form action="https://api.particle.io/v1/devices/e00fce688c4206859d06dadb/led?access_token=1d490afad5b7a8cb56d21617099fe9b9ee647244" method="POST">
+     Tell your device what to do!<br>
+    <br>
+     <p>Select the action you want to take:</p>
+    <input type="radio" name="arg" value="led1on">OPEN THE GATE(represented by green light).
+    <br>
+    <input type="radio" name="arg" value="led2on">TRIGGER ALARM(represented by buzzer).
+    <br>
+    <input type="radio" name="arg" value="led3on">CLOSE THE GATE(represented by orange/red LED).
+    <br>
+    <input type="submit" value="Go for it!">
+    </form>
+    </center>
+    </body>
+    </html>
